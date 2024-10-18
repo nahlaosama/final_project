@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the GitHub repository
-                git url: 'https://github.com/nahlaosama/final_project', branch: 'a6ca6c29320f3d13ca6ba6b29451a0c39a96dd07'
+                git url: 'https://github.com/nahlaosama/final_project', branch: '96ed35d0030fc3b4732b1e9d92bf7256df706f66'
             }
         }
 
