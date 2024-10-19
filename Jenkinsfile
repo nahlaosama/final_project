@@ -11,8 +11,13 @@ pipeline {
     
     stages {
         stage('Checkout') {
-              
-                     git url: 'https://github.com/nahlaosama/final_project.git', branch: 'master'
+               steps {
+                git(
+                    url: 'https://github.com/nahlaosama/final_project.git',
+                    branch: 'master',
+                    credentialsId: 'github-token'
+                )
+            }
         }
         }
 
