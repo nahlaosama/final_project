@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
               
                      git url: 'https://github.com/nahlaosama/final_project.git', branch: 'master'
-                 )
+        }
         }
 
     
