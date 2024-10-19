@@ -8,7 +8,7 @@ pipeline {
         NAMESPACE = 'dv'
     }
     
-
+     stages {
         stage('Build') {
             steps {
                 script {
@@ -55,6 +55,7 @@ pipeline {
             }
     
         }
+}
 
    
         
